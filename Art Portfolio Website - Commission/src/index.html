@@ -5,9 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="output.css" rel="stylesheet">
 </head>
-<body>
-  <h1 class="text-3xl font-bold bg-orange-400">
-    Hello world!
-  </h1>
+<body class="bg-gray-600">
+  <!--NAV BAR-->
+    <nav class="p-10 bg-gray-400">
+        <div class="flex justify-between flex-wrap items-center">
+            <!-- Logo -->
+            <div class="flex items-center">
+                <a href="index.html"><img src="/Art Portfolio Website - Commission/Nav-Bar-Logo.png" alt="Logo" class="h-60 border border-black"></a>
+            </div>
+            <a href="index.html"><div class="px-10 border border-black">Home</div></a>
+            <!-- Dropdown Button -->
+            <div class="relative">
+                <button id="dropdownBtn" class="text-black border border-black hover:text-red-600 mr-16">
+                    Portfolios
+                </button>
+                <!-- Dropdown Menu -->
+                <div id="dropdownMenu" class="absolute top-10 right-0 mt-2 bg-gray-400 text-black p-4 rounded shadow-lg hidden">
+                    <a href="/Art Portfolio Website - Commission/src/index.html" class="block px-4 py-2 hover:bg-gray-700">2D</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-700">3D</a>
+                </div>
+            </div>
+            <div class="border border-black"><a href="https://www.etsy.com/uk/shop/rorynoodles">Shop</a></div>
+            <div class="border border-black"><a>Commissions</a></div>
+        </div>
+    </nav>
+
+<div>
+  <img src="/Art Portfolio Website - Commission/Ramen-Bowl.png" class=" sm:w-full md:w-full lg:w-4/6">
+</div>
+  <script src="script.js"></script>
 </body>
 </html>
