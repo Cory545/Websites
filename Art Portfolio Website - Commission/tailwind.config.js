@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'background-1' : "url('/img/background.png')"
+        'background-1' : "url('/Art Portfolio Website - Commission/img/background.png')"
       },
       height: {
         '128': '32rem',
